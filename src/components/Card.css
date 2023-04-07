@@ -1,0 +1,26 @@
+#style{
+    background-color: skyblue;
+    border-radius: 2rem;
+    padding: 1.5rem;
+    width: 50%;
+    margin: 1rem 0 1rem 0;
+    text-align: center;
+    height: 350px;
+}
+#style img{
+    display:block;
+    width:150px;
+    height: 222px;
+    margin:0 auto;
+}
+
+#style button{
+    width: 8rem;
+    height: 2rem;
+    margin-top:20px;
+ 
+}
+
+#style h1{
+    font-size: 15px;
+}

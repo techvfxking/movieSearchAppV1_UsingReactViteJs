@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+:root {
+    --dimGrey: #a0a0a0;
+    --black: #000000;
+    --2ndColor: #ffb92a;
+    --white: #ffffff;
+    --dimBlack: #201f28;
+    --shadowColor1: rgba(0, 0, 0, 0.2);
+    font-family: 'Roboto', sans-serif;
+}
+.navbarContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0 2rem;
+    height:5.5rem;
+    background-color:var(--2ndColor);
+    box-shadow: 0 0 2px 2px var(--shadowColor1);
+    position: sticky;
+}
+.navbarLogoTitle{
+    display: flex;
+    align-items: center;
+    gap:0.5rem;
+    font-weight: 700; 
+}
+.imageLogo{
+    display: flex;
+    align-items: center;
+    gap:0.5rem;
+    width:60px;
+    height:60px;
+}
+.searchbar{
+    display: grid;
+    grid-template-columns: 9fr 3fr;
+    gap: 1.2em;
+}
+.searchbar input,
+  .searchbar button {
+    font-size: 0.9em;
+    outline: none;
+    border-radius: 0.3em;
+  }
+  .searchbar button{
+    color:var(--white);
+  }
+  .searchbar input {
+    background-color: transparent;
+    border: 1px solid var(--dimBlack);
+    padding: 0.7em;
+    color: var(--dimBlack);
+    width:30rem;
+    outline:none;
+    font-weight: 700;
+  }
+  .searchbar button {
+    background-color: var(--black);
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    
+  }
