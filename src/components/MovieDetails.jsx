@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom";
 
 const MovieDetails = () => {
   const { id } = useParams();
-  let url = `http://www.omdbapi.com/?i=${id}&plot=full&apikey=11531d44`;
+  let url = `https://www.omdbapi.com/?i=${id}&plot=full&apikey=11531d44`;
 
   const [jsonDataArr, setjsonDataArr] = useState({
     Title: "",
